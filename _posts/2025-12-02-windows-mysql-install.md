@@ -80,3 +80,18 @@
 ---
 
 完成上述步骤后，你就可以在 Windows 上通过 ZIP 方式成功安装并运行 MySQL！
+
+### 6. 常见命令
+```
+# 登录 MySQL
+mysql -u root -p
+
+# 输入密码后，在 MySQL 提示符下执行：
+CREATE DATABASE mydb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# 执行sql文件
+SOURCE /path/to/your/file.sql;
+
+mysql -u 用户名 -p database_name < /path/to/file.sql
+
+```
