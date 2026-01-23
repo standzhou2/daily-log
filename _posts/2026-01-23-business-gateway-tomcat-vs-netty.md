@@ -1,5 +1,3 @@
----
-
 ## 介绍一下Tomcat Http11NioProtocol, 和Netty的EventLoopGroup模型比优劣势是什么
 
 这是一个非常经典且深入的架构对比问题。要理解两者的优劣势，我们需要深入到它们处理网络I/O和业务逻辑的底层线程模型中去。
